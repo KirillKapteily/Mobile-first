@@ -75,6 +75,7 @@ font-weight: 700;
 line-height: normal;
 }
 
+
 .header-list{
     display: flex;
     list-style: none;
@@ -123,12 +124,11 @@ font-weight: 300;
 line-height: normal;
 }
 
-.hero{
-    background-image: url("/img/hero.png");
-    background-repeat: no-repeat;
-    background-color: #666;
-    background-size: cover;
-}
+// .hero{
+//     background-image: url("/img/hero.png");
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
 
 .svg{
     width: 21px;

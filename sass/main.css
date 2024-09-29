@@ -53,6 +53,12 @@ body {
   font-style: normal;
 }
 
+header {
+  background-image: url("/img/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .pre__title {
   color: #FFF;
   text-align: center;
@@ -176,13 +182,6 @@ body {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-}
-
-.hero {
-  background-image: url("/img/hero.png");
-  background-repeat: no-repeat;
-  background-color: #666;
-  background-size: cover;
 }
 
 .svg {
