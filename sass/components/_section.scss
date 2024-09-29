@@ -1,0 +1,14 @@
+.back2{
+    @include back ();
+    background-color: #FFA507;
+}
+
+.back3{
+    @include back ();
+    background-color: #1CD7AD;
+}
+
+.back4{
+    @include back ();
+    background-color: #4E73DB;;
+}

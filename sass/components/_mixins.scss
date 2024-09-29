@@ -1,0 +1,10 @@
+@mixin back () {
+    border-radius: 50%;
+    position: relative;
+    border-color: #FFF;
+    right: 40px;
+    top: 80px;
+    display: flex;
+    width: 35px;
+    height: 35px;
+}
