@@ -1,4 +1,59 @@
-.container{
+.container {
     width: 320px;
     margin: 0 auto;
+    outline: 1px red solid;
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+
+    .container {
+        min-width: 768px;
+    }
+
+    .header-list {
+        justify-content: flex-end;
+    }
+
+    .pre__title {
+        position: absolute;
+        top: 40px;
+
+    }
+
+    .hero {
+        height: 500px;
+    }
+
+    .main__title {
+        font-size: 52.046px;
+    }
+
+    .hero__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 228px;
+    }
+
+    .main__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 53px;
+        justify-content: center;
+        width: 645px;
+    }
+
+    .main__item {
+        width: 194px;
+        height: 201px;
+
+    }
+
+    .footer__btn {
+        display: flex;
+        justify-content: center !important;
+        margin: 0 auto!important;
+
+    }
+
 }
