@@ -231,7 +231,8 @@ header {
 }
 
 .hero {
-  background-image: url("../../img/hero.png");
+  background-image: url("../img/hero.png");
+  background-color: #666;
   background-repeat: no-repeat;
   background-size: cover;
 }
