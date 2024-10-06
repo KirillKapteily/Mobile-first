@@ -107,11 +107,12 @@
 
 .signin__btn {
     background-color: transparent;
-    border-color: #ffffff;
     color: white;
     text-align: center;
     font-family: Montserrat;
     font-size: 13.986px;
+    border: none;
+    border: #FFF solid 2px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -155,14 +156,19 @@
     height: 35px;
 }
 
+.hero {
+    height: 500px;
+}
+
 .footer__btn {
     background-color: transparent;
-    border-color: #FF4E50;
     line-height: normal;
     border-radius: 50px;
     margin-left: 39px;
     padding: 11px 59px;
     color: #FF4E50;
+    border: none;
+    border: #FF4E50 solid 2px;
     text-align: center;
     font-family: Montserrat;
     font-size: 14.001px;

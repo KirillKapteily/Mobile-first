@@ -7,7 +7,6 @@ body {
 .container {
   width: 320px;
   margin: 0 auto;
-  outline: 0.1px red solid;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -39,6 +38,46 @@ body {
     gap: 53px;
     justify-content: center;
     width: 645px;
+  }
+  .main__item {
+    width: 194px;
+    height: 201px;
+  }
+  .footer__btn {
+    display: flex;
+    justify-content: center !important;
+    margin: 0 auto !important;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    min-width: 1200px;
+  }
+  .header-list {
+    justify-content: flex-end;
+  }
+  .pre__title {
+    position: absolute;
+    top: 40px;
+  }
+  .hero {
+    height: 500px;
+  }
+  .main__title {
+    font-size: 52.046px;
+  }
+  .hero__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 228px;
+  }
+  .main__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 53px;
+    justify-content: center;
+    margin-bottom: 50px;
   }
   .main__item {
     width: 194px;
@@ -209,11 +248,12 @@ header {
 
 .signin__btn {
   background-color: transparent;
-  border-color: #ffffff;
   color: white;
   text-align: center;
   font-family: Montserrat;
   font-size: 13.986px;
+  border: none;
+  border: #FFF solid 2px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -257,14 +297,19 @@ header {
   height: 35px;
 }
 
+.hero {
+  height: 500px;
+}
+
 .footer__btn {
   background-color: transparent;
-  border-color: #FF4E50;
   line-height: normal;
   border-radius: 50px;
   margin-left: 39px;
   padding: 11px 59px;
   color: #FF4E50;
+  border: none;
+  border: #FF4E50 solid 2px;
   text-align: center;
   font-family: Montserrat;
   font-size: 14.001px;
