@@ -51,17 +51,18 @@
     .footer__btn {
         display: flex;
         justify-content: center !important;
-        margin: 0 auto!important;
+        margin: 0 auto !important;
 
     }
 
 }
 
 @media (min-width:1200px) {
-    .container{
+    .container {
         min-width: 1200px;
     }
-        .header-list {
+
+    .header-list {
         justify-content: flex-end;
     }
 
@@ -73,6 +74,12 @@
 
     .hero {
         height: 500px;
+    }
+
+    header {
+        background-image: url("/img/herod@1x.png");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .main__title {
@@ -91,7 +98,7 @@
         flex-wrap: wrap;
         gap: 53px;
         justify-content: center;
-margin-bottom: 50px;
+        margin-bottom: 50px;
     }
 
     .main__item {
@@ -103,6 +110,6 @@ margin-bottom: 50px;
     .footer__btn {
         display: flex;
         justify-content: center !important;
-        margin: 0 auto!important;
+        margin: 0 auto !important;
     }
 }

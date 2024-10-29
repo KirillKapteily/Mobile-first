@@ -38,7 +38,13 @@
         <ul class="main__list">
           <li class="main__item">
             <div class="images">
-              <img src="img/person1.png" alt="person1">
+              <picture>
+                <source srcset="img/person1@1x.png" media="(min-width: 320px) and (max-width:620px)">
+                <source srcset="img/person1@2x.png" media="(min-width: 621px) and (max-width:1200px)">
+                <source srcset="img/person1@3x.png" media="(min-width: 1201px)">
+                <img src="img/person1@1x.png" alt="p1">
+              </picture>
+              <!-- <img src="img/person1.png" alt="person1"> -->
               <div class="back"><svg class="svg">
                   <use href="img/symbol-defs.svg#icon-tv" width="21" height="20"></use>
                 </svg></div>
@@ -50,7 +56,13 @@
           </li>
           <li class="main__item">
             <div class="images">
-              <img src="img/person2.png" alt="person2">
+              <picture>
+                <source srcset="img/person2@1x.png" media="(min-width: 320px) and (max-width:620px)">
+                <source srcset="img/person2@2x.png" media="(min-width: 621px) and (max-width:1200px)">
+                <source srcset="img/person2@3x.png" media="(min-width: 1201px)">
+                <img src="img/person2@1x.png" alt="p1">
+              </picture>
+              <!-- <img src="img/person2.png" alt="person2"> -->
               <div class="back2"><svg class="svg">
                   <use href="img/symbol-defs.svg#icon-lab" width="21" height="20"></use>
                 </svg></div>
@@ -63,7 +75,13 @@
           </li>
           <li class="main__item">
             <div class="images">
-              <img src="img/person3.png" alt="person3">
+              <picture>
+                <source srcset="img/person3@1x.png" media="(min-width: 320px) and (max-width:620px)">
+                <source srcset="img/person3@2x.png" media="(min-width: 621px) and (max-width:1200px)">
+                <source srcset="img/person3@3x.png" media="(min-width: 1201px)">
+                <img src="img/person3@1x.png" alt="p1">
+              </picture>
+              <!-- <img src="img/person3.png" alt="person3"> -->
               <div class="back3"><svg class="svg">
                   <use href="img/symbol-defs.svg#icon-cup" width="21" height="20"></use>
                 </svg></div>
@@ -75,7 +93,13 @@
           </li>
           <li class="main__item">
             <div class="images">
-              <img src="img/person4.png" alt="person4">
+              <picture>
+                <source srcset="img/person4@1x.png" media="(min-width: 320px) and (max-width:620px)">
+                <source srcset="img/person4@2x.png" media="(min-width: 621px) and (max-width:1200px)">
+                <source srcset="img/person4@3x.png" media="(min-width: 1201px)">
+                <img src="img/person4@1x.png" alt="p1">
+              </picture>
+              <!-- <img src="img/person4.png" alt="person4"> -->
               <div class="back4"><svg class="svg">
                   <use href="img/symbol-defs.svg#icon-telegram" width="21" height="20"></use>
                 </svg></div>
@@ -95,5 +119,5 @@
     </div>
   </footer>
 </body>
-
+<script src="script.js"></script>
 </html>

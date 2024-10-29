@@ -160,6 +160,12 @@
     height: 500px;
 }
 
+img{
+    max-width: 120px;
+    height: auto;
+    display: block;
+}
+
 .footer__btn {
     background-color: transparent;
     line-height: normal;

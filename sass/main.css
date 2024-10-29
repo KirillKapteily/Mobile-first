@@ -63,6 +63,11 @@ body {
   .hero {
     height: 500px;
   }
+  header {
+    background-image: url("/img/herod@1x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .main__title {
     font-size: 52.046px;
   }
@@ -134,12 +139,17 @@ body {
 }
 
 header {
-  background-image: url("../../img/hero.png");
+  background-image: url("/img/herom@1x.png");
   background-color: #666;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  header {
+    background-image: url("/img/herom@2x.png");
+  }
+}
 .pre__title {
   color: #FFF;
   text-align: center;
@@ -299,6 +309,12 @@ header {
 
 .hero {
   height: 500px;
+}
+
+img {
+  max-width: 120px;
+  height: auto;
+  display: block;
 }
 
 .footer__btn {

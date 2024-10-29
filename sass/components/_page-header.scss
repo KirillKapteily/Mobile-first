@@ -7,8 +7,17 @@
 }
 
 header{
-    background-image: url("../../img/hero.png");
+    background-image: url("/img/herom@1x.png");
     background-color: #666;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  header {
+    background-image: url("/img/herom@2x.png");
+  }
 }
