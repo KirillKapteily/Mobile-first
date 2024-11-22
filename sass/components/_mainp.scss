@@ -58,6 +58,13 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    transition-property: background-color, transform;
+    transition-duration: 250ms;
+
+    &:hover{
+        background-color: #e74649;
+        transform: scale(1.1);
+    }
 }
 
 .part__title {
@@ -118,6 +125,14 @@
     line-height: normal;
     border-radius: 50px;
     padding: 11px 22px;
+    transition-property: color, border, transform;
+    transition-duration: 250ms;
+
+    &:hover{
+        color: #e1e1e1;
+        transform: scale(1.1);
+        border: #e1e1e1 solid 2px;
+    }
 }
 
 .partner__par {
@@ -183,4 +198,12 @@ img{
     font-style: normal;
     font-weight: 700;
     margin-bottom: 57px;
+    transition-property: color, border, transform;
+    transition-duration: 250ms;
+
+    &:hover{
+        color: #FF4E50;
+        transform: scale(1.1);
+        border: #FF4E50 solid 2px;
+    }
 }
