@@ -111,6 +111,7 @@ body {
   width: 35px;
   height: 35px;
   background-color: #FFA507;
+  border: 3px white solid;
 }
 
 .back3 {
@@ -123,6 +124,7 @@ body {
   width: 35px;
   height: 35px;
   background-color: #1CD7AD;
+  border: 3px white solid;
 }
 
 .back4 {
@@ -135,6 +137,7 @@ body {
   width: 35px;
   height: 35px;
   background-color: #4E73DB;
+  border: 3px white solid;
 }
 
 .login__btn {
@@ -325,7 +328,7 @@ header {
   background-color: #FF4E50;
   border-radius: 50%;
   position: relative;
-  border-color: #FFF;
+  border: 3px white solid;
   right: 40px;
   top: 80px;
   display: flex;

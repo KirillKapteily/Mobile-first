@@ -1,14 +1,17 @@
 .back2{
     @include back ();
     background-color: #FFA507;
+    border: 3px white solid;
 }
 
 .back3{
     @include back ();
     background-color: #1CD7AD;
+    border: 3px white solid;
 }
 
 .back4{
     @include back ();
     background-color: #4E73DB;;
+    border: 3px white solid;
 }

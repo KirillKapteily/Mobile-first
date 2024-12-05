@@ -157,13 +157,14 @@
     display: flex;
     padding-left: 6px;
     padding-top: 7px;
+    
 }
 
 .back {
     background-color: #FF4E50;
     border-radius: 50%;
     position: relative;
-    border-color: #FFF;
+    border: 3px white solid;
     right: 40px;
     top: 80px;
     display: flex;
